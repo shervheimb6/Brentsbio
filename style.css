@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    background-color:cornflowerblue;
+    
+  }
+  .contact {
+    background-color:cornflowerblue;
+  }
+  
+  .about-me {
+    font-size: 20px
+    
+  }
+  .title {
+    background-color:blue;
+    font-weight: bold;
+    color: yellow;
+    border-radius: 05%;
+    
+  }
+  h1 {
+    color: azure;
+  }
+  body {
+    font-family: georgia;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.allwhitebackground.com%2Fimages%2F5%2FOrange-Background-Free-Image.png&f=1&nofb=1");
+    
+    
+  }
+
+  img {
+    width: 375px;
+    height: 375px;
+    box-shadow: 10px 5px 5px white;
+  }
