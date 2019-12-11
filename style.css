@@ -1,4 +1,4 @@
-.header {
+header {
     text-align: center;
     background-color:cornflowerblue;
     
@@ -32,4 +32,12 @@
     width: 375px;
     height: 375px;
     box-shadow: 10px 5px 5px white;
+  }
+
+  @media only screen and (max-width: 680px){
+  img {
+    width: 75%;
+    height: 75%
+  }
+
   }
