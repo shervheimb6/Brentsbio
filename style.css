@@ -3,6 +3,26 @@ header {
     background-color:cornflowerblue;
     
   }
+  nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
   .contact {
     background-color:cornflowerblue;
   }
@@ -32,6 +52,16 @@ header {
     width: 375px;
     height: 375px;
     box-shadow: 10px 5px 5px white;
+    margin-top: 35px;
+  }
+
+  
+
+  @media only screen and (max-width: 500px){
+   img {
+     margin-top:90px;
+   }
+
   }
 
   @media only screen and (max-width: 680px){
@@ -41,3 +71,10 @@ header {
   }
 
   }
+  @media only screen and (max-width: 268px){
+    img {
+      margin-top:170px;
+      width: 100%;
+    }
+ 
+   }
